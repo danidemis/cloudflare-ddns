@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run timothyjmiller/cloudflare-ddns:latest
+docker run danidemis96/cloudflare-ddns:latest
