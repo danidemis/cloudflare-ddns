@@ -15,4 +15,4 @@ FROM base AS release
 WORKDIR /opt
 COPY --from=dependencies /root/.local /root/.local
 COPY cloudflare-ddns.py .
-CMD ["python", "-u", "/cloudflare-ddns.py", "--repeat"]
+CMD ["python", "-u", "./cloudflare-ddns.py", "--repeat"]
